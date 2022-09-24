@@ -11,13 +11,13 @@
   background-position: 100% 20%;
   background-repeat: no-repeat;
 }
-body {
-  font-family: 'Poppins';
+body{
+  font-family: 'Poppins'sans-serif;
   font-style: normal;
   order: 1;
   flex-grow: 0;
 }
-h3 {
+h3{
   color: #6070ff;
 }
 
@@ -33,7 +33,7 @@ h3 {
   margin: 16px;
   margin-top: 5px;
 }
-.profile-sum {
+.profile-sum{
   width: 327px;
   height: 146px;
   font-weight: 400;
@@ -45,12 +45,12 @@ h3 {
 .icon:not(:first-child) {
   margin: 0 0 0 16px;
 }
-icon a img {
+ img{
   width: 1.5rem;
   height: 1.5rem;
 }
 ul,
-li {
+li{
   list-style: none;
   padding-left: 0;
 }
@@ -63,7 +63,7 @@ h4 {
   display: flex;
   align-items: center;
 }
-header {
+header{
   display: flex;
   justify-content: space-between;
   padding: 10px 30px;
